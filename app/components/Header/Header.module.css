@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.logo {
+    height: 100px;
+    pointer-events: none;
+}
+.logo:hover{
+    pointer-events:all;
+    cursor: pointer;
+}
+.buttons {
+    display: flex;
+    gap: 90px;
+    margin-right: 20px;
+}
+.but {
+    font-weight: 500;
+    font-size: 16px;
+    background-color: rgba(199,210,208,0.5);
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 2px solid #E2A348;
+}
+.but:hover{
+    cursor: pointer;
+    background-color: #E2A348;
+    transition: all ease-in-out 300ms;
+    border: 2px solid #1283BE;
+}
+.but:active{
+    transform: scale(0.95);
+    transition: all ease-in 100ms;
+}
+.but-cliked{
+    background-color: #E2A348;
+}
