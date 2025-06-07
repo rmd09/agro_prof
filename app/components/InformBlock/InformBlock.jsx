@@ -15,7 +15,7 @@ export const InformBlock = (props) => {
                 <h4 className={styles["title"]}>{props.title}</h4>
                 <img src={props.imagePath} alt={props.title} className={styles["img"]} />
                 <p className={styles["text"]}>{props.text}</p>
-                <h5 className={styles["money__value"]}>{`Зарплата на старте - ${props.money}`}</h5>
+                <h5 className={styles["money__value"]}>{props.money}</h5>
             </li>
         </Link>
     )

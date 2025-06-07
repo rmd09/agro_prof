@@ -1,11 +1,11 @@
 import styles from "./page.module.css";
 import { InformBlockList } from "../components/InformBlockList/InformBlockList";
-import { data } from "../data/data";
+import { jobData } from "../data/data";
 
 export default function Job() {
     return (
-        <main className={styles["main"]}>
-            <InformBlockList data={data} />
+        <main className={`${styles["main"]} animation`}>
+            <InformBlockList data={jobData} />
         </main>
     );
 }
