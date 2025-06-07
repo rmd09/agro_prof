@@ -1,22 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', serif;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 500;
+}
+p{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
 }
 
 body{
   min-height: 100vh;
   min-width: 100vw;
+  max-width: 100vw;
   padding: 1% 1%;
   background-image: url("/back.png");
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+*::-webkit-scrollbar{
+  background-color: #C7D2D0;
+
+}
+*::-webkit-scrollbar-button{
+  display: none;
+}
+*::-webkit-scrollbar-track{
+}
+*::-webkit-scrollbar-thumb{
+  background-color: rgba(18,131,190, 0.3);
+  border-radius: 5px;
 }
 
 a{
   color: #000;
   text-decoration: none;
+}
+
+.animation{
+    animation-name: main;
+    animation-timing-function: ease-out;
+    animation-duration: 700ms;
+    animation-iteration-count: 1;
+}
+.animation__reasons{
+    animation-name: reasons;
+    animation-timing-function: ease-out;
+    animation-duration: 1400ms;
+    animation-iteration-count: 1;
+    /* animation-delay: 700ms; */
+}
+
+@keyframes main {
+    0%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    25%{
+      transform: translateY(15px);
+      opacity: 0.25;
+    }
+    50%{
+        transform: translateY(10px);
+        opacity: 0.5;
+    }
+    75%{
+      transform: translateY(5px);
+        opacity: 0.75;
+    }
+    100%{
+        transform: none;
+        opacity: 1;
+    }
+}
+@keyframes reasons {
+    0%{
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    50%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    62%{
+      transform: translateX(-150px);
+      opacity: 0.25;
+    }
+    75%{
+        transform: translateX(-100px);
+        opacity: 0.5;
+    }
+    87%{
+      transform: translateX(-50px);
+        opacity: 0.75;
+    }
+    100%{
+        transform: none;
+        opacity: 1;
+    }
 }
