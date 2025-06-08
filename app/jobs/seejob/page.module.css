@@ -1,0 +1,42 @@
+.main{
+    padding: 20px 40px 0 40px;
+}
+.back__to__jobs{
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 2px solid #000;
+}
+.h3{
+    font-size: 18px;
+}
+.img{
+    width: 375px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+/* .back__div{
+    background-color: #C7D2D0;
+    border: 2px solid #1283BE;
+    padding: 20px 40px 50px 40px;
+    border-radius: 15px;
+} */
+.discription{
+    display: flex;
+    margin-top: 30px;
+}
+.h1{
+    font-style: italic;
+    text-align: center;
+    font-size: 32px;
+}
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+    justify-content: center;
+    font-size: 18px;
+}
