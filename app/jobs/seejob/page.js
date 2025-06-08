@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import styles from "./page.module.css";
 import { getJobInfo } from "@/app/data/api-tools";
 import Link from "next/link";
+import { Tag } from "@/app/components/Tag/Tag";
 
 export default function SeeJobs() {
     const [useData, setUseData] = useState(null);
@@ -20,12 +21,22 @@ export default function SeeJobs() {
                 </svg>
                 <h3 className={styles["h3"]}>Назад к профессиям</h3>
             </Link>
-            <section className={styles["back__div"]}>
-                <h1 className={styles["h1"]}>{useData?.title}</h1>
-                <div className={styles["discription"]}>
-                    <img className={styles["img"]} src={useData?.imagePath} alt={useData?.title} />
-                    <p className={styles["text"]}>Предварительные выводы неутешительны: сплочённость команды профессионалов требует от нас анализа инновационных методов управления процессами. Противоположная точка зрения подразумевает, что некоторые особенности внутренней политики, превозмогая сложившуюся непростую экономическую ситуацию, преданы социально-демократической анафеме! Повседневная практика показывает, что начало повседневной работы по формированию позиции в значительной степени обусловливает важность соответствующих условий активизации. Имеется спорная точка зрения, гласящая примерно следующее: действия представителей оппозиции могут быть функционально разнесены на независимые элементы. В частности, семантический разбор внешних противодействий требует анализа благоприятных перспектив.</p>
+            <h1 className={styles["h1"]}>{useData?.title}</h1>
+            <p className={styles["text"]}>{useData?.longText}</p>
+            <section className={styles["tags__and__image"]}>
+                <div className={styles["tags__section"]}>
+                    <h2 className={styles["tags__title"]}>Навыки:</h2>
+                    <div className={styles["tags__container"]}>
+                        {
+                            useData?.tags.map((tag, key) => {
+                                return (
+                                    <Tag value={tag} key={key} />
+                                );
+                            })
+                        }
+                    </div>
                 </div>
+                <img className={styles["img"]} src={useData?.imagePath} alt={useData?.title}/>
             </section>
         </main>
     );
