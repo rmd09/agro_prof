@@ -5,7 +5,7 @@ import { jobData } from "../data/data";
 export default function Job() {
     return (
         <main className={`${styles["main"]} animation`}>
-            <InformBlockList data={jobData} />
+            <InformBlockList href="/jobs/seejob" data={jobData} />
         </main>
     );
 }

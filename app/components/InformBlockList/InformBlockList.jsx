@@ -6,7 +6,7 @@ export const InformBlockList = (props) => {
         <ul className={styles["ul"]}>
             {props.data?.map((value, key) => {
                 return (
-                    <InformBlock key={key} {...value}/>
+                    <InformBlock href={props.href} key={key} {...value}/>
                 )
             })}
         </ul>

@@ -16,12 +16,14 @@
   font-weight: 500;
   font-size: 26px;
   text-align: center;
+  margin-top: 10px;
 }
 .pluses__container{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1000px;
+  margin-bottom: 10px;
 }
 .h6{
   font-weight: 500;
@@ -36,7 +38,34 @@
   transition: all ease-in-out 300ms;
 }
 .h6:hover{
-  transform: scale(1.03) translateY(-5px);
+  transform: translateY(-5px);
+  transition: all ease-in-out 300ms;
+  cursor: default;
+}
+.text{
+  width: 80%;
+  font-size: 21px;
+  text-align: center;
+}
+.ul{
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.li{
+  font-size: 17px;
+  font-weight: 500;
+  border: 2px solid #1283BE;
+  padding: 6px 10px;
+  border-radius: 7px;
+  background-color: rgba(199,210,208,0.5);
+  
+  transition: all ease-in-out 300ms;
+}
+.li:hover{
+  transform: translateY(-2px);
   transition: all ease-in-out 300ms;
   cursor: default;
 }

@@ -10,7 +10,7 @@ export const InformBlock = (props) => {
     }
 
     return (
-        <Link onClick={clickHandler} href={"/jobs/seejob"}>
+        <Link onClick={clickHandler} href={props.href}>
             <li className={styles["main__section"]}>
                 <h4 className={styles["title"]}>{props.title}</h4>
                 <img src={props.imagePath} alt={props.title} className={styles["img"]} />
