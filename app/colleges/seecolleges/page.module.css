@@ -3,6 +3,10 @@
     background-color: rgba(199,210,208,0.7);
     padding-bottom: 40px;
 }
+.header__links{
+    display: flex;
+    justify-content: space-between;
+}
 .back__to__jobs{
     display: inline-flex;
     align-items: center;
