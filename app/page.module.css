@@ -37,11 +37,6 @@
   
   transition: all ease-in-out 300ms;
 }
-.h6:hover{
-  transform: translateY(-5px);
-  transition: all ease-in-out 300ms;
-  cursor: default;
-}
 .text{
   width: 80%;
   font-size: 21px;
@@ -63,9 +58,4 @@
   background-color: rgba(199,210,208,0.5);
   
   transition: all ease-in-out 300ms;
-}
-.li:hover{
-  transform: translateY(-2px);
-  transition: all ease-in-out 300ms;
-  cursor: default;
 }
