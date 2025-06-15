@@ -249,351 +249,514 @@ export const collegeData = [
 ];
 
 export const test = {
-    "title": "Тест на профориентацию в АПК",
-    "description": "Ответьте на 10 вопросов, чтобы узнать, какая профессия в агропромышленном комплексе вам подходит больше всего",
+    "title": "Комплексный тест профориентации в АПК",
+    "description": "Ответьте на 15 вопросов для точного определения подходящей профессии в агропромышленном комплексе",
     "questions": [
         {
             "number": 1,
-            "title": "Какая сфера деятельности вам интереснее?",
+            "title": "Какая рабочая среда вам комфортнее?",
             "options": [
                 {
-                    "text": "Работа с растениями и почвой",
+                    "text": "Полевые условия, открытый воздух",
                     "scores": [
-                        {"job_id": 0, "points": 5},
-                        {"job_id": 4, "points": 5},
-                        {"job_id": 7, "points": 3},
-                        {"job_id": 10, "points": 4},
-                        {"job_id": 15, "points": 4}
+                        {"job_id": 0, "points": 5}, {"job_id": 5, "points": 5},
+                        {"job_id": 10, "points": 4}, {"job_id": 15, "points": 4}
                     ]
                 },
                 {
-                    "text": "Работа с животными",
+                    "text": "Лаборатория или исследовательский центр",
                     "scores": [
-                        {"job_id": 1, "points": 5},
-                        {"job_id": 2, "points": 5},
-                        {"job_id": 12, "points": 4},
-                        {"job_id": 14, "points": 3}
+                        {"job_id": 4, "points": 5}, {"job_id": 8, "points": 4},
+                        {"job_id": 14, "points": 4}, {"job_id": 10, "points": 3}
                     ]
                 },
                 {
-                    "text": "Работа с техникой и оборудованием",
+                    "text": "Производственные цеха и фермы",
                     "scores": [
-                        {"job_id": 3, "points": 5},
-                        {"job_id": 5, "points": 5},
-                        {"job_id": 16, "points": 4}
+                        {"job_id": 1, "points": 5}, {"job_id": 2, "points": 5},
+                        {"job_id": 12, "points": 5}, {"job_id": 16, "points": 4}
                     ]
                 },
                 {
-                    "text": "Анализ данных и планирование",
+                    "text": "Офис с аналитикой данных",
                     "scores": [
-                        {"job_id": 6, "points": 5},
-                        {"job_id": 9, "points": 5},
-                        {"job_id": 11, "points": 4}
+                        {"job_id": 6, "points": 5}, {"job_id": 9, "points": 5},
+                        {"job_id": 11, "points": 4}, {"job_id": 13, "points": 3}
                     ]
                 }
             ]
         },
         {
             "number": 2,
-            "title": "Какой тип задач вам ближе?",
+            "title": "Ваш подход к решению проблем?",
             "options": [
                 {
-                    "text": "Практическая работа руками",
+                    "text": "Практические эксперименты",
                     "scores": [
-                        {"job_id": 5, "points": 5},
-                        {"job_id": 12, "points": 4},
-                        {"job_id": 16, "points": 4}
+                        {"job_id": 0, "points": 4}, {"job_id": 4, "points": 4},
+                        {"job_id": 15, "points": 5}, {"job_id": 10, "points": 3}
                     ]
                 },
                 {
-                    "text": "Научные исследования и анализ",
+                    "text": "Анализ данных и моделирование",
                     "scores": [
-                        {"job_id": 4, "points": 5},
-                        {"job_id": 9, "points": 5},
-                        {"job_id": 10, "points": 5},
-                        {"job_id": 15, "points": 4}
+                        {"job_id": 9, "points": 5}, {"job_id": 13, "points": 4},
+                        {"job_id": 11, "points": 4}, {"job_id": 6, "points": 3}
                     ]
                 },
                 {
-                    "text": "Организация процессов и управление",
+                    "text": "Технические инновации",
                     "scores": [
-                        {"job_id": 6, "points": 5},
-                        {"job_id": 11, "points": 5},
-                        {"job_id": 1, "points": 3}
+                        {"job_id": 3, "points": 5}, {"job_id": 5, "points": 4},
+                        {"job_id": 16, "points": 5}, {"job_id": 12, "points": 3}
                     ]
                 },
                 {
-                    "text": "Творческая деятельность и дизайн",
+                    "text": "Организационные решения",
                     "scores": [
-                        {"job_id": 7, "points": 5}
+                        {"job_id": 6, "points": 5}, {"job_id": 11, "points": 5},
+                        {"job_id": 8, "points": 3}, {"job_id": 14, "points": 3}
                     ]
                 }
             ]
         },
         {
             "number": 3,
-            "title": "Как вы относитесь к работе на открытом воздухе?",
+            "title": "Что вас привлекает в сельском хозяйстве?",
             "options": [
                 {
-                    "text": "Предпочитаю работать преимущественно на улице",
+                    "text": "Растениеводство и селекция",
                     "scores": [
-                        {"job_id": 0, "points": 5},
-                        {"job_id": 5, "points": 5},
-                        {"job_id": 10, "points": 4},
-                        {"job_id": 15, "points": 4}
+                        {"job_id": 0, "points": 5}, {"job_id": 7, "points": 4},
+                        {"job_id": 15, "points": 4}, {"job_id": 16, "points": 3}
                     ]
                 },
                 {
-                    "text": "Люблю сочетание работы в помещении и на улице",
+                    "text": "Животноводство и ветеринария",
                     "scores": [
-                        {"job_id": 1, "points": 4},
-                        {"job_id": 2, "points": 4},
-                        {"job_id": 7, "points": 4}
+                        {"job_id": 1, "points": 5}, {"job_id": 2, "points": 5},
+                        {"job_id": 12, "points": 4}, {"job_id": 14, "points": 4}
                     ]
                 },
                 {
-                    "text": "Предпочитаю работать в помещении",
+                    "text": "Технологии и автоматизация",
                     "scores": [
-                        {"job_id": 3, "points": 3},
-                        {"job_id": 6, "points": 4},
-                        {"job_id": 8, "points": 5},
-                        {"job_id": 9, "points": 5},
-                        {"job_id": 14, "points": 5}
+                        {"job_id": 3, "points": 5}, {"job_id": 5, "points": 5},
+                        {"job_id": 9, "points": 4}, {"job_id": 16, "points": 4}
+                    ]
+                },
+                {
+                    "text": "Экология и устойчивое развитие",
+                    "scores": [
+                        {"job_id": 13, "points": 5}, {"job_id": 10, "points": 4},
+                        {"job_id": 7, "points": 3}, {"job_id": 15, "points": 3}
                     ]
                 }
             ]
         },
         {
             "number": 4,
-            "title": "Какой уровень ответственности вас привлекает?",
+            "title": "Как вы предпочитаете работать с информацией?",
             "options": [
                 {
-                    "text": "Индивидуальная работа с четко определенными задачами",
+                    "text": "Сбор полевых данных",
                     "scores": [
-                        {"job_id": 5, "points": 4},
-                        {"job_id": 12, "points": 4},
-                        {"job_id": 16, "points": 4}
+                        {"job_id": 0, "points": 4}, {"job_id": 9, "points": 4},
+                        {"job_id": 15, "points": 5}, {"job_id": 10, "points": 5}
                     ]
                 },
                 {
-                    "text": "Ответственность за конкретный участок работы",
+                    "text": "Анализ больших массивов данных",
                     "scores": [
-                        {"job_id": 0, "points": 4},
-                        {"job_id": 1, "points": 4},
-                        {"job_id": 2, "points": 4},
-                        {"job_id": 15, "points": 4}
+                        {"job_id": 9, "points": 5}, {"job_id": 6, "points": 4},
+                        {"job_id": 11, "points": 4}, {"job_id": 13, "points": 3}
                     ]
                 },
                 {
-                    "text": "Управление процессами и принятие стратегических решений",
+                    "text": "Работа с технической документацией",
                     "scores": [
-                        {"job_id": 6, "points": 5},
-                        {"job_id": 9, "points": 4}
+                        {"job_id": 3, "points": 5}, {"job_id": 5, "points": 4},
+                        {"job_id": 8, "points": 4}, {"job_id": 14, "points": 3}
+                    ]
+                },
+                {
+                    "text": "Визуализация и дизайн",
+                    "scores": [
+                        {"job_id": 7, "points": 5}, {"job_id": 9, "points": 3}
                     ]
                 }
             ]
         },
         {
             "number": 5,
-            "title": "Какие школьные предметы вам нравились больше всего?",
+            "title": "Ваше отношение к технике?",
             "options": [
                 {
-                    "text": "Биология, химия",
+                    "text": "Управление и эксплуатация",
                     "scores": [
-                        {"job_id": 0, "points": 4},
-                        {"job_id": 1, "points": 4},
-                        {"job_id": 2, "points": 5},
-                        {"job_id": 4, "points": 5},
-                        {"job_id": 10, "points": 5},
-                        {"job_id": 15, "points": 5}
+                        {"job_id": 5, "points": 5}, {"job_id": 3, "points": 4},
+                        {"job_id": 12, "points": 4}, {"job_id": 16, "points": 4}
                     ]
                 },
                 {
-                    "text": "Физика, информатика",
+                    "text": "Обслуживание и ремонт",
                     "scores": [
-                        {"job_id": 3, "points": 5},
-                        {"job_id": 5, "points": 4},
-                        {"job_id": 9, "points": 5},
-                        {"job_id": 16, "points": 5}
+                        {"job_id": 3, "points": 5}, {"job_id": 5, "points": 4},
+                        {"job_id": 16, "points": 3}
                     ]
                 },
                 {
-                    "text": "Математика, экономика",
+                    "text": "Программирование и автоматизация",
                     "scores": [
-                        {"job_id": 6, "points": 5},
-                        {"job_id": 9, "points": 4},
-                        {"job_id": 11, "points": 5}
+                        {"job_id": 9, "points": 5}, {"job_id": 16, "points": 5},
+                        {"job_id": 3, "points": 3}
                     ]
                 },
                 {
-                    "text": "География, черчение",
+                    "text": "Использую минимально необходимое",
                     "scores": [
-                        {"job_id": 7, "points": 5},
-                        {"job_id": 10, "points": 4}
+                        {"job_id": 0, "points": 4}, {"job_id": 1, "points": 4},
+                        {"job_id": 7, "points": 5}, {"job_id": 13, "points": 4}
                     ]
                 }
             ]
         },
         {
             "number": 6,
-            "title": "Как вы относитесь к работе с современными технологиями?",
+            "title": "Какой график работы предпочтителен?",
             "options": [
                 {
-                    "text": "Хочу работать с высокотехнологичным оборудованием",
+                    "text": "Сезонная интенсивная работа",
                     "scores": [
-                        {"job_id": 3, "points": 5},
-                        {"job_id": 5, "points": 5},
-                        {"job_id": 9, "points": 5},
-                        {"job_id": 16, "points": 5}
+                        {"job_id": 0, "points": 5}, {"job_id": 5, "points": 5},
+                        {"job_id": 15, "points": 4}
                     ]
                 },
                 {
-                    "text": "Готов использовать технологии, но в умеренном объеме",
+                    "text": "Равномерная нагрузка круглый год",
                     "scores": [
-                        {"job_id": 0, "points": 3},
-                        {"job_id": 1, "points": 3},
-                        {"job_id": 6, "points": 4},
-                        {"job_id": 15, "points": 3}
+                        {"job_id": 1, "points": 4}, {"job_id": 2, "points": 4},
+                        {"job_id": 8, "points": 5}, {"job_id": 14, "points": 5}
                     ]
                 },
                 {
-                    "text": "Предпочитаю традиционные методы работы",
+                    "text": "Гибкий график с возможностью удалённой работы",
                     "scores": [
-                        {"job_id": 2, "points": 2},
-                        {"job_id": 7, "points": 2},
-                        {"job_id": 10, "points": 2}
+                        {"job_id": 6, "points": 5}, {"job_id": 9, "points": 5},
+                        {"job_id": 7, "points": 4}, {"job_id": 13, "points": 4}
+                    ]
+                },
+                {
+                    "text": "Сменная работа/дежурства",
+                    "scores": [
+                        {"job_id": 12, "points": 5}, {"job_id": 2, "points": 4},
+                        {"job_id": 16, "points": 4}
                     ]
                 }
             ]
         },
         {
             "number": 7,
-            "title": "Какой график работы вам предпочтительнее?",
+            "title": "Что важнее в работе?",
             "options": [
                 {
-                    "text": "Стандартный график с четким распорядком",
+                    "text": "Конкретный осязаемый результат",
                     "scores": [
-                        {"job_id": 6, "points": 4},
-                        {"job_id": 8, "points": 5},
-                        {"job_id": 9, "points": 4},
-                        {"job_id": 14, "points": 5}
+                        {"job_id": 0, "points": 4}, {"job_id": 5, "points": 5},
+                        {"job_id": 8, "points": 4}, {"job_id": 14, "points": 4}
                     ]
                 },
                 {
-                    "text": "Гибкий график с сезонной загруженностью",
+                    "text": "Научные открытия и инновации",
                     "scores": [
-                        {"job_id": 0, "points": 5},
-                        {"job_id": 5, "points": 5},
-                        {"job_id": 15, "points": 4}
+                        {"job_id": 4, "points": 5}, {"job_id": 9, "points": 4},
+                        {"job_id": 10, "points": 5}, {"job_id": 15, "points": 4}
                     ]
                 },
                 {
-                    "text": "Дежурства и работа в выходные",
+                    "text": "Экологическая безопасность",
                     "scores": [
-                        {"job_id": 2, "points": 5},
-                        {"job_id": 12, "points": 4}
+                        {"job_id": 13, "points": 5}, {"job_id": 7, "points": 4},
+                        {"job_id": 10, "points": 4}, {"job_id": 15, "points": 3}
+                    ]
+                },
+                {
+                    "text": "Экономическая эффективность",
+                    "scores": [
+                        {"job_id": 6, "points": 5}, {"job_id": 11, "points": 5},
+                        {"job_id": 3, "points": 3}, {"job_id": 8, "points": 3}
                     ]
                 }
             ]
         },
         {
             "number": 8,
-            "title": "Какие перспективы для вас важнее?",
+            "title": "Работа с какими объектами привлекает?",
             "options": [
                 {
-                    "text": "Быстрый карьерный рост",
+                    "text": "Почва и растения",
                     "scores": [
-                        {"job_id": 6, "points": 5},
-                        {"job_id": 9, "points": 4}
+                        {"job_id": 0, "points": 5}, {"job_id": 4, "points": 4},
+                        {"job_id": 10, "points": 5}, {"job_id": 15, "points": 5}
                     ]
                 },
                 {
-                    "text": "Стабильная работа с постепенным развитием",
+                    "text": "Животные и птица",
                     "scores": [
-                        {"job_id": 0, "points": 4},
-                        {"job_id": 1, "points": 4},
-                        {"job_id": 2, "points": 4},
-                        {"job_id": 8, "points": 4}
+                        {"job_id": 1, "points": 5}, {"job_id": 2, "points": 5},
+                        {"job_id": 12, "points": 5}, {"job_id": 14, "points": 4}
                     ]
                 },
                 {
-                    "text": "Высокий заработок в сезон",
+                    "text": "Техника и оборудование",
                     "scores": [
-                        {"job_id": 5, "points": 5}
+                        {"job_id": 3, "points": 5}, {"job_id": 5, "points": 5},
+                        {"job_id": 8, "points": 3}, {"job_id": 16, "points": 4}
                     ]
                 },
                 {
-                    "text": "Возможность заниматься научной работой",
+                    "text": "Данные и цифровые системы",
                     "scores": [
-                        {"job_id": 4, "points": 5},
-                        {"job_id": 10, "points": 5},
-                        {"job_id": 15, "points": 4}
+                        {"job_id": 6, "points": 4}, {"job_id": 9, "points": 5},
+                        {"job_id": 11, "points": 4}, {"job_id": 13, "points": 3}
                     ]
                 }
             ]
         },
         {
             "number": 9,
-            "title": "Как вы относитесь к физическому труду?",
+            "title": "Ваша роль в команде?",
             "options": [
                 {
-                    "text": "Готов к тяжелой физической работе",
+                    "text": "Исполнитель конкретных задач",
                     "scores": [
-                        {"job_id": 5, "points": 5},
-                        {"job_id": 12, "points": 4}
+                        {"job_id": 5, "points": 4}, {"job_id": 12, "points": 5},
+                        {"job_id": 16, "points": 4}, {"job_id": 14, "points": 3}
                     ]
                 },
                 {
-                    "text": "Предпочитаю умеренную физическую активность",
+                    "text": "Специалист-эксперт",
                     "scores": [
-                        {"job_id": 0, "points": 4},
-                        {"job_id": 1, "points": 4},
-                        {"job_id": 2, "points": 3},
-                        {"job_id": 15, "points": 3}
+                        {"job_id": 0, "points": 4}, {"job_id": 2, "points": 5},
+                        {"job_id": 4, "points": 5}, {"job_id": 10, "points": 5}
                     ]
                 },
                 {
-                    "text": "Хочу минимизировать физические нагрузки",
+                    "text": "Координатор процессов",
                     "scores": [
-                        {"job_id": 6, "points": 5},
-                        {"job_id": 9, "points": 5},
-                        {"job_id": 3, "points": 3}
+                        {"job_id": 1, "points": 4}, {"job_id": 6, "points": 5},
+                        {"job_id": 8, "points": 4}, {"job_id": 11, "points": 5}
+                    ]
+                },
+                {
+                    "text": "Стратег и аналитик",
+                    "scores": [
+                        {"job_id": 9, "points": 5}, {"job_id": 13, "points": 4},
+                        {"job_id": 6, "points": 4}, {"job_id": 15, "points": 3}
                     ]
                 }
             ]
         },
         {
             "number": 10,
-            "title": "Что для вас важнее в работе?",
+            "title": "Отношение к ручному труду?",
             "options": [
                 {
-                    "text": "Конкретный ощутимый результат",
+                    "text": "Готов к физической работе",
                     "scores": [
-                        {"job_id": 0, "points": 4},
-                        {"job_id": 5, "points": 5},
-                        {"job_id": 8, "points": 4},
-                        {"job_id": 14, "points": 4}
+                        {"job_id": 5, "points": 5}, {"job_id": 0, "points": 4},
+                        {"job_id": 12, "points": 4}, {"job_id": 16, "points": 3}
                     ]
                 },
                 {
-                    "text": "Интеллектуальная challenge",
+                    "text": "Предпочитаю автоматизированные процессы",
                     "scores": [
-                        {"job_id": 4, "points": 5},
-                        {"job_id": 9, "points": 5},
+                        {"job_id": 3, "points": 5}, {"job_id": 9, "points": 5},
+                        {"job_id": 16, "points": 4}, {"job_id": 11, "points": 3}
+                    ]
+                },
+                {
+                    "text": "Комбинирую физический и умственный труд",
+                    "scores": [
+                        {"job_id": 1, "points": 4}, {"job_id": 2, "points": 4},
+                        {"job_id": 4, "points": 4}, {"job_id": 15, "points": 4}
+                    ]
+                },
+                {
+                    "text": "Исключительно умственная работа",
+                    "scores": [
+                        {"job_id": 6, "points": 5}, {"job_id": 7, "points": 4},
+                        {"job_id": 9, "points": 4}, {"job_id": 13, "points": 5}
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 11,
+            "title": "Работа с биологическими системами?",
+            "options": [
+                {
+                    "text": "Растения и экосистемы",
+                    "scores": [
+                        {"job_id": 0, "points": 5}, {"job_id": 4, "points": 4},
+                        {"job_id": 7, "points": 5}, {"job_id": 13, "points": 4}
+                    ]
+                },
+                {
+                    "text": "Животные и птицы",
+                    "scores": [
+                        {"job_id": 1, "points": 5}, {"job_id": 2, "points": 5},
+                        {"job_id": 12, "points": 5}, {"job_id": 14, "points": 4}
+                    ]
+                },
+                {
+                    "text": "Микроорганизмы и биохимия",
+                    "scores": [
+                        {"job_id": 4, "points": 5}, {"job_id": 8, "points": 5},
+                        {"job_id": 14, "points": 5}, {"job_id": 15, "points": 4}
+                    ]
+                },
+                {
+                    "text": "Цифровые модели биосистем",
+                    "scores": [
+                        {"job_id": 9, "points": 5}, {"job_id": 16, "points": 4},
+                        {"job_id": 13, "points": 3}
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 12,
+            "title": "Готовность к работе в экстремальных условиях?",
+            "options": [
+                {
+                    "text": "Погодные условия в поле",
+                    "scores": [
+                        {"job_id": 0, "points": 5}, {"job_id": 5, "points": 5},
                         {"job_id": 15, "points": 4}
                     ]
                 },
                 {
-                    "text": "Общение с людьми",
+                    "text": "Работа на производстве с техникой",
                     "scores": [
-                        {"job_id": 6, "points": 5},
-                        {"job_id": 2, "points": 3}
+                        {"job_id": 3, "points": 4}, {"job_id": 5, "points": 4},
+                        {"job_id": 8, "points": 3}, {"job_id": 12, "points": 4}
                     ]
                 },
                 {
-                    "text": "Творческая самореализация",
+                    "text": "Работа с опасными веществами",
                     "scores": [
-                        {"job_id": 7, "points": 5}
+                        {"job_id": 4, "points": 5}, {"job_id": 15, "points": 4},
+                        {"job_id": 8, "points": 3}
+                    ]
+                },
+                {
+                    "text": "Стрессовые ситуации с животными",
+                    "scores": [
+                        {"job_id": 2, "points": 5}, {"job_id": 12, "points": 4},
+                        {"job_id": 14, "points": 3}
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 13,
+            "title": "Важнейший аспект продукции?",
+            "options": [
+                {
+                    "text": "Количество и урожайность",
+                    "scores": [
+                        {"job_id": 0, "points": 4}, {"job_id": 1, "points": 4},
+                        {"job_id": 5, "points": 5}, {"job_id": 6, "points": 3}
+                    ]
+                },
+                {
+                    "text": "Качество и безопасность",
+                    "scores": [
+                        {"job_id": 2, "points": 4}, {"job_id": 8, "points": 5},
+                        {"job_id": 14, "points": 5}, {"job_id": 15, "points": 4}
+                    ]
+                },
+                {
+                    "text": "Экологичность",
+                    "scores": [
+                        {"job_id": 7, "points": 4}, {"job_id": 10, "points": 5},
+                        {"job_id": 13, "points": 5}, {"job_id": 15, "points": 3}
+                    ]
+                },
+                {
+                    "text": "Экономическая эффективность",
+                    "scores": [
+                        {"job_id": 6, "points": 5}, {"job_id": 9, "points": 4},
+                        {"job_id": 11, "points": 5}, {"job_id": 3, "points": 3}
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 14,
+            "title": "Отношение к длительным проектам?",
+            "options": [
+                {
+                    "text": "Сезонные циклы (растениеводство)",
+                    "scores": [
+                        {"job_id": 0, "points": 5}, {"job_id": 4, "points": 4},
+                        {"job_id": 10, "points": 4}, {"job_id": 15, "points": 4}
+                    ]
+                },
+                {
+                    "text": "Животноводческие циклы",
+                    "scores": [
+                        {"job_id": 1, "points": 5}, {"job_id": 2, "points": 4},
+                        {"job_id": 12, "points": 5}, {"job_id": 14, "points": 4}
+                    ]
+                },
+                {
+                    "text": "Техническая модернизация",
+                    "scores": [
+                        {"job_id": 3, "points": 5}, {"job_id": 16, "points": 5},
+                        {"job_id": 9, "points": 4}
+                    ]
+                },
+                {
+                    "text": "Стратегическое планирование",
+                    "scores": [
+                        {"job_id": 6, "points": 5}, {"job_id": 9, "points": 4},
+                        {"job_id": 11, "points": 4}, {"job_id": 13, "points": 4}
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 15,
+            "title": "Основная мотивация в работе?",
+            "options": [
+                {
+                    "text": "Научный интерес",
+                    "scores": [
+                        {"job_id": 4, "points": 5}, {"job_id": 9, "points": 4},
+                        {"job_id": 10, "points": 5}, {"job_id": 13, "points": 4}
+                    ]
+                },
+                {
+                    "text": "Техническое творчество",
+                    "scores": [
+                        {"job_id": 3, "points": 5}, {"job_id": 5, "points": 4},
+                        {"job_id": 16, "points": 5}, {"job_id": 7, "points": 3}
+                    ]
+                },
+                {
+                    "text": "Экономические результаты",
+                    "scores": [
+                        {"job_id": 6, "points": 5}, {"job_id": 11, "points": 5},
+                        {"job_id": 8, "points": 4}, {"job_id": 14, "points": 4}
+                    ]
+                },
+                {
+                    "text": "Социальная значимость",
+                    "scores": [
+                        {"job_id": 0, "points": 4}, {"job_id": 1, "points": 4},
+                        {"job_id": 2, "points": 5}, {"job_id": 13, "points": 4}
                     ]
                 }
             ]
