@@ -91,7 +91,7 @@ export const jobData = [
     },
     {
         "id": 10,
-        "imagePath": "https://images.unsplash.com/photo-1586771107445-d3ca888129ce",
+        "imagePath": "/pochvoved.jpg",
         "title": "Почвовед",
         "text": "Специалист по исследованию и улучшению качества почв для сельскохозяйственных нужд.",
         "money": "Зарплата на старте - от 55 тыс. р.",
@@ -100,7 +100,7 @@ export const jobData = [
     },
     {
         "id": 11,
-        "imagePath": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+        "imagePath": "/logist.jpeg",
         "title": "Сельскохозяйственный логист",
         "text": "Специалист по организации перевозок и хранения сельхозпродукции.",
         "money": "Зарплата на старте - от 60 тыс. р.",
@@ -109,7 +109,7 @@ export const jobData = [
     },
     {
         "id": 12,
-        "imagePath": "https://images.unsplash.com/photo-1585011650347-c59dbef5b0e9",
+        "imagePath": "/bird.jpg",
         "title": "Оператор птицефабрики",
         "text": "Специалист по обслуживанию оборудования и уходу за птицей на птицеводческих комплексах.",
         "money": "Зарплата на старте - от 45 тыс. р.",
@@ -118,7 +118,7 @@ export const jobData = [
     },
     {
         "id": 13,
-        "imagePath": "https://images.unsplash.com/photo-1516937941344-00b4e0337589",
+        "imagePath": "/agroecko.jpg",
         "title": "Агроэколог",
         "text": "Специалист по экологическому сопровождению сельскохозяйственного производства.",
         "money": "Зарплата на старте - от 58 тыс. р.",
@@ -127,7 +127,7 @@ export const jobData = [
     },
     {
         "id": 14,
-        "imagePath": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3",
+        "imagePath": "/moloko.jpg",
         "title": "Технолог молочного производства",
         "text": "Специалист по переработке молока и производству молочной продукции.",
         "money": "Зарплата на старте - от 65 тыс. р.",
@@ -136,7 +136,7 @@ export const jobData = [
     },
     {
         "id": 15,
-        "imagePath": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a",
+        "imagePath": "/protect.jpg",
         "title": "Специалист по защите растений",
         "text": "Эксперт по диагностике и борьбе с болезнями и вредителями сельхозкультур.",
         "money": "Зарплата на старте - от 52 тыс. р.",
@@ -145,7 +145,7 @@ export const jobData = [
     },
     {
         "id": 16,
-        "imagePath": "https://images.unsplash.com/photo-1516937941344-00b4e0337589",
+        "imagePath": "/gidro.jpg",
         "title": "Оператор гидропонных установок",
         "text": "Специалист по выращиванию растений на гидропонных фермах.",
         "money": "Зарплата на старте - от 50 тыс. р.",
