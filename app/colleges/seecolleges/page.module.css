@@ -2,6 +2,7 @@
     padding: 20px 40px 0 40px;
     background-color: rgba(199,210,208,0.7);
     padding-bottom: 40px;
+    height: calc(100vh - 200px);
 }
 .header__links{
     display: flex;
