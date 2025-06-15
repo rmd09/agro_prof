@@ -1,0 +1,25 @@
+.main{
+    border: 2px solid #E2A348;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 8px 14px;
+    
+    transition: all ease-in-out 200ms;
+}
+.main:hover{
+    border-color: #1283BE;
+    cursor: pointer;
+
+    transition: all ease-in-out 200ms;
+}
+.main:active{
+    transform: scale(0.97);
+    
+    transition: all ease-in-out 200ms;
+}
+.main__clicked{
+    background-color: #E2A348;
+}
+.text{
+    font-size: 17px;
+}

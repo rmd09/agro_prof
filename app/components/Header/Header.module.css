@@ -32,6 +32,7 @@
     border-radius: 10px;
     border: 2px solid #E2A348;
     transition: all ease-in-out 300ms;
+    text-align: center;
 }
 .but:hover{
     cursor: pointer;
