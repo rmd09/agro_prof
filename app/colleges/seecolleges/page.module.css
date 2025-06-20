@@ -76,6 +76,7 @@
     }
     .h3{
         font-size: 3.5vw;
+        text-align: center;
     }
     .back__to__jobs{
         border: none;
@@ -92,5 +93,7 @@
     .img{
         margin: 0 auto;
         margin-top: 20px;
+        width: 64vw;
+        height: 42vw;
     }
 }

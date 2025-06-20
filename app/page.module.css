@@ -107,4 +107,11 @@
     font-size: 3.5vw;
     width: 70vw;
   }
+  .pluses__container{
+    width: 90vw;
+  }
+  .main{
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
 }
