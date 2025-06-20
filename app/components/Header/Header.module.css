@@ -35,16 +35,46 @@
     transition: all ease-in-out 300ms;
     text-align: center;
 }
-.but:hover{
-    cursor: pointer;
-    background-color: #E2A348;
-    transition: all ease-in-out 300ms;
-    border: 2px solid #1283BE;
-}
 .but:active{
     transform: scale(0.95);
     transition: all ease-in 100ms;
 }
 .but-cliked{
     background-color: #E2A348;
+}
+
+@media screen and (max-width: 1150px) {
+    .logo{
+        height: 80px;
+    }
+    .but{
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .header{
+        flex-direction: column;
+        height: auto;
+    }
+    .buttons{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .but{
+        font-size: 3.5vw;
+    }
+    .logo{
+        width: 50vw;
+    }
+}
+
+@media screen and (orientation: landscape) {
+  .but:hover{
+    cursor: pointer;
+    background-color: #E2A348;
+    transition: all ease-in-out 300ms;
+    border: 2px solid #1283BE;
+}
 }

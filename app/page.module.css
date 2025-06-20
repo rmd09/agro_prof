@@ -59,3 +59,52 @@
   
   transition: all ease-in-out 300ms;
 }
+
+@media screen and (max-width: 1150px) {
+  .main{
+    gap: 30px;
+    padding-bottom: 20px;
+  }
+    .h1{
+      font-size: 24px;
+    }
+    .h2{
+      font-size: 22px;
+    }
+    .h6{
+      font-size: 16px;
+      padding: 20px 20px;
+    }
+    .li{
+      font-size: 15px;
+    }
+    .text{
+      font-size: 19px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+  .pluses__container{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .h1{
+    font-size: 5vw;
+  }
+  .h2{
+    font-size: 5vw;
+  }
+  .h6{
+    font-size: 4vw;
+    padding: 10px 14px;
+    border-radius: 10px;
+    width: 70vw;
+  }
+  .text{
+    font-size: 4vw;
+  }
+  .li{
+    font-size: 3.5vw;
+    width: 70vw;
+  }
+}

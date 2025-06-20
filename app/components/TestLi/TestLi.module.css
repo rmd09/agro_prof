@@ -6,12 +6,7 @@
     
     transition: all ease-in-out 200ms;
 }
-.main:hover{
-    border-color: #1283BE;
-    cursor: pointer;
 
-    transition: all ease-in-out 200ms;
-}
 .main:active{
     transform: scale(0.97);
     
@@ -22,4 +17,25 @@
 }
 .text{
     font-size: 17px;
+}
+
+@media screen and (max-width: 1150px) {
+    .text{
+        font-size: 15px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .text{
+        font-size: 3.6vw;
+    }
+}
+
+@media screen and (orientation: landscape) {
+  .main:hover{
+    border-color: #1283BE;
+    cursor: pointer;
+
+    transition: all ease-in-out 200ms;
+  }
 }

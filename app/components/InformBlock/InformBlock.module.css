@@ -12,11 +12,6 @@
     
     transition: all ease-in-out 300ms;
 }
-.main__section:hover{
-    cursor: pointer;
-    transform: translateY(-10px);
-    transition: all ease-in-out 300ms;
-}
 .img {
     width: 300px;
     height: 200px;
@@ -40,4 +35,50 @@
 .money__value {
     font-size: 16px;
     font-style: italic;
+}
+
+@media screen and (max-width: 1150px) {
+    .main__section{
+        width: 300px;
+    }
+    .img{
+        width: 280px;
+    }
+    .title{
+        font-size: 19px;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .money__value{
+        font-size: 15px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .main__section{
+        width: 70vw;
+        padding: 3vw 2vw;
+    }
+    .img{
+        width: 64vw;
+        height: 42vw;
+    }
+    .title{
+        font-size: 5vw;
+    }
+    .text{
+        font-size: 3.5vw;
+    }
+    .money__value{
+        font-size: 3.6vw;
+    }
+}
+
+@media screen and (orientation: landscape) {
+  .main__section:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all ease-in-out 300ms;
+}
 }
