@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Агро Проф
+Сайт для выбора профессии в агропромышленном комплексе, созданный в рамках конкурса [Большая Перемена](https://большаяперемена.онлайн/)
 
-## Getting Started
+## Просмотр
+К сожалению хостинг, на котором работал сайт, не поддерживается. Но вы всегда можете посмотреть [скиншоты](#скриншоты) или [запустить сайт самостоятельно](#как-запустить-сайт-локально)!
 
-First, run the development server:
+## Описание проблемы
+Российский АПК испытывает острую нехватку кадров (дефицит >200 тыс. специалистов), усугубляемую оттоком 60% выпускников аграрных вузов в другие отрасли. Основная причина – системный кризис профориентации: треть школьников выбирает профессию хаотично, а также молодёжь недостаточно информирована о перспективах агросектора. Решить проблему позволяет создание сайта: 62.5% россиян 18-30 лет используют интернет как основной источник информации; Исследования подтверждают эффективность простых онлайн-ресурсов, поэтому создание специализированного профориентационного сайта для АПК с лаконичным дизайном и узкой отраслевой направленностью решит данную проблему.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Преимущества сайта
+
+- ### Большой выбор профессий
+    Сайт предоставляет широкий спектр профессий для изучения, а так же зарплятные ожидания.
+
+- ### Большой выбор колледжей
+    Сайт предоставляет широкий спектр колледжей для изучения нужных профессий. Список колледжей составлен не только по Москве, но и по регионам.
+
+- ### Тест на профориентацию
+    Сайт предоставляет 15 профессиональных вопросов по ключевым аспектам работы в АПК, которые позволяют определить ТОП-5 профессий, подходящих пользователю.
+
+- ### Простой дизайн
+    Позволяет эффективнее доносить информацию.
+
+## Как запустить сайт локально
+Сайт написан на фреймворке React. Для запуска сайта вам потребуется:
+1. Установить необходимые зависимости: [Node.js](https://nodejs.org/en), [VS Code](https://code.visualstudio.com/).
+2. Скачать zip-архив проекта с GitHub.
+3. Распаковать архив и открыть папку проекта через VS Code.
+4. Открыть терминал и выполнить следующие команды:
+
+```PowerShell
+# Установка всех необходимых пакетов
+npm i
+
+# Сборка сайта
+npm run build
+
+# Запуск сайта
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. После успешного запуска перейдите по ссылке http://localhost:3000.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Для остановки работы сайта достаточно, находясь в терминале, дважды нажать сочетание клавиш `Ctr+C`. Чтобы запустить сайт после этого, достаточно будет выполнить в терминале команду
+```PowerShell
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Как запустить сайт на сервере
+Здесь не будет подробной инструкции, однако вы можете найти всю необходимую информацию [на сайте](https://reg.cloud/support/cloud/oblachnyye-servery/ustanovka-programmnogo-obespecheniya/deploy-react-prilozheniya).
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Скриншоты
+![](public/readme/главная.png)
+![](public/readme/колледж%20инфо.png)
+![](public/readme/профессия%20инфо.png)
+![](public/readme/список%20коледжей.png)
+![](public/readme/список%20проффессий.png)
+![](public/readme/тест%20вопрос.png)
+![](public/readme/тест%20главная.png)
+![](public/readme/тест%20результат.png)
